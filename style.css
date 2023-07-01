@@ -1,0 +1,43 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+html,body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #141e30, #243b55); 
+}
+.calculator{
+  border:1px solid #717377;
+  border-radius: 15px;
+  width: 350px;
+  height: 400px;
+  padding: 20px;
+  box-shadow: 0px 3px 15px rgba(113,115,119, 0.5);
+
+}
+input{
+  font-family: 'Anton', sans-serif;
+  width: 85%;
+  padding:20px;
+  border: none;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(89, 85, 85, 0.4);
+  color: white;
+  font-size: 20px;
+  margin-left: 3%;
+  text-align: right;
+
+}
+input[type=button]{
+  width: 100%;
+  margin: 10%;
+  text-align: center;
+}
+#btn{
+  background-color: #EABDAE;
+}
+
